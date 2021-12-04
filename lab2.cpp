@@ -201,6 +201,8 @@ int main()
   cout<<"1:createlist 2:deletelistelement 3:searchlist 4:displaylist"<<endl;
   cout<<"Enter your choice : ";
   cin>>n;
+  while(1)
+  {
   switch(n)
   {
     case 1:cout<<"Enter the key : ";
@@ -220,6 +222,11 @@ int main()
     
     case 4: lst.displayList();
 
+  }
+  cout<<"1:createlist 2:deletelistelement 3:searchlist 4:displaylist"<<endl;
+  cout<<"Enter your choice : ";
+  cin>>n;
+    
   }
  
 }
